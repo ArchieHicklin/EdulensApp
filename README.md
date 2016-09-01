@@ -1,24 +1,13 @@
-[![Build Status](https://travis-ci.org/TelescopeJS/Telescope.svg)](https://travis-ci.org/TelescopeJS/Telescope)
-[![Code Climate](https://codeclimate.com/github/TelescopeJS/Telescope/badges/gpa.svg)](https://codeclimate.com/github/TelescopeJS/Telescope)
+### Developing the EdulensApp
 
-Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
+First, make sure meteor is installed:
 
-**Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
+`curl https://install.meteor.com/ | sh`
 
-Note that Telescope is distributed under the [MIT License](http://opensource.org/licenses/MIT)
+When this is done, you can simply download this repository, navigate to the directory and run:
 
-### Getting Started
+`meteor`
 
-Note that while simply cloning this repository will work, it is recommended you clone the [sample project](https://github.com/TelescopeJS/sample-project/) repository instead for a simpler workflow.
+Note that while simply cloning this repository will work, iOS and Android versions will have to be installed using the build command in [Meteor] (https://guide.meteor.com/mobile.html)
 
-Please refer to [the documentation](http://telescope.readme.io/v0.20/docs/installing-telescope) for more instructions on installing Telescope.
-
-### Learn More
-
-- [Homepage](http://telescopeapp.org)
-- [Demo](http://demo2.telescopeapp.org)
-- [Sample Project](https://github.com/TelescopeJS/sample-project/)
-- [Documentation](http://telescope.readme.io)
-- [Roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap)
-- [Slack](http://slack.telescopeapp.org/)
-- [Meta](http://meta.telescopeapp.org/) – Discussions about Telescope
+Note that EdulensApp is distributed under the [MIT License](http://opensource.org/licenses/MIT)
