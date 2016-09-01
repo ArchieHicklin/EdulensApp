@@ -1,0 +1,23 @@
+.search {
+	.search-field {
+    color: #444444;
+	  font-size: 15px;
+    @include medium-large {
+      padding: 4px 0px;
+    }
+	}
+  &.empty {
+    .search-field {
+      background: rgba(235,235,235,0.6);
+    }
+  }
+	&:before {
+    .search-field {
+			content: "\f09b";
+	    font-family: FontAwesome;
+    }
+  }
+  input {
+  	color: lightgray;
+  }
+}
