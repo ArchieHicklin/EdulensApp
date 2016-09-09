@@ -2,10 +2,19 @@
 
 /*
 
-This template acts as the controller that sets and manages the reactive context 
+This template acts as the controller that sets and manages the reactive context
 for the embedded postsList template. It receives its parameters from a "caller" template.
 
 */
+
+Meteor.Spinner.options = {
+    lines: 6, // The number of lines to draw
+    length: 15, // The length of each line
+    width: 2, // The line thickness
+    radius: 10, // The radius of the inner circle
+    color: '#2B2D2E', // #rgb or #rrggbb
+    shadow: false, // Whether to render a shadow
+};
 
 Template.posts_list_controller.onCreated(function () {
 
@@ -53,7 +62,7 @@ Template.posts_list_controller.onCreated(function () {
     if (subscriptionsReady) {
       instance.terms.set(subscriptionTerms);
     }
-  
+
   });
 
 });

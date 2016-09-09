@@ -434,6 +434,10 @@
 .post-meta-item {
 	display: inline-block;
 }
+.post-meta-item-time {
+	display: inline-block;
+	color: #CED1CC;
+}
 .post-body, .page-body {
 	@extend .has-shadow;
 	border-radius: 3px;

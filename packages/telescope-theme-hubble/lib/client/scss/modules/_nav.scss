@@ -118,7 +118,7 @@
 			&:last-child{
 				margin: 0;
 			}
-		}	
+		}
 	}
 }
 // ------------------------------------ Side Nav Layout ------------------------------------ //
@@ -178,7 +178,7 @@ $nav-width: 250px;
 		}
 		.account-link{
 			display: block;
-			font-weight: bold;
+			font-weight: 300;
 		}
 
 		.account-link{
@@ -196,6 +196,6 @@ $nav-width: 250px;
 			&:last-child{
 				margin: 0;
 			}
-		}	
+		}
 	}
 }

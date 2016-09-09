@@ -19,7 +19,7 @@
 		margin-right: 20px;
 	}
 	.menu-item{
-		text-transform: uppercase;
+		text-transform: none;
 		a {
 			font-size: 18px;
 			letter-spacing: 1px;
@@ -97,10 +97,12 @@
         	background-color: transparent;
         	transition: all 0.2s ease;
         	text-shadow: 0px 0px 0px rgba(177, 175, 175, 0.0);
+					transition: all .2s ease-in-out;
         	&:hover {
-        		background-color: white;
+        		background-color: transparent;
         		border-color: #347261;
         		color: #FF5A5F;
+						transform: scale(2.1);
         	}
         }
         &.voted {
@@ -146,9 +148,9 @@
 	}
 	.post-title {
 		color: #2B2D2E;
-		text-transform: uppercase;
-		font-weight: 900;
-		font-size: 15px;
+		text-transform: none;
+		font-weight: 300;
+		font-size: 18px;
 		letter-spacing: 0.1px;
 		margin-bottom: 0px !important;
 		transition: all 0.2s ease;

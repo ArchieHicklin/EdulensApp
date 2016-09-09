@@ -13,12 +13,14 @@ $text: #444444;
 .menu-item{
   padding: 5px;
   margin: 0;
+  font-weight: 300;
   a{
     font-size:14px;
   }
 }
 .menu-label{
   display: block;
+  font-weight: 300;
 }
 .menu-description{
   display: block;
@@ -39,6 +41,7 @@ $text: #444444;
 .item-active{
   .dark-bg &, .medium-dark-bg &{
     background: white(0.1);
+    font-weight: 600;
   }
   .light-bg &, .medium-light-bg &, white-bg &{
     background: black(0.1);
@@ -73,7 +76,8 @@ $text: #444444;
         position:relative;
         top:-1px;
         margin-left:4px;
-        content:"▼";
+        font-family: Ionicons;
+        content:"\f3d0";
         font-size:8px;
       }
     }

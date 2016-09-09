@@ -9,7 +9,7 @@ Telescope.utils.getIcon = function (iconName, iconClass) {
   var icons = Telescope.utils.icons;
   var iconCode = !!icons[iconName] ? icons[iconName] : iconName;
   var iconClass = (typeof iconClass === 'string') ? ' '+iconClass : '';
-  return '<i class="icon fa fa-' + iconCode + ' icon-' + iconName + iconClass+ '" aria-hidden="true"></i>';
+  return '<i class="ion-' + iconCode + ' icon-' + iconName + iconClass+ '" aria-hidden="true"></i>';
 };
 
 /**
@@ -28,10 +28,10 @@ Telescope.utils.icons = {
   comment: "comment-o",
   share: "share-square-o",
   more: "ellipsis-h",
-  menu: "bars",
-  subscribe: "envelope-o",
+  menu: "more",
+  subscribe: "ios-checkmark-outline",
   delete: "trash-o",
-  edit: "pencil",
+  edit: "edit",
   popularity: "fire",
   time: "clock-o",
   best: "star",
