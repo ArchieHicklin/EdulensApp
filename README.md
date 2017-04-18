@@ -1,1 +1,1 @@
-### Learning how to use a voting system in Meteor
+### A fucking amazing voting system in Meteor & React
